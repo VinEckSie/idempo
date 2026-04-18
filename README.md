@@ -1,8 +1,6 @@
 # Crate Idempo
 
-Idempotency primitives for Rust — safely ensure operations execute only once.
-
-Useful when building APIs, background jobs, or distributed systems where retries may happen and duplicate side effects must be avoided.
+A Rust crate providing idempotency primitives to guarantee safe, repeatable operations in concurrent and distributed systems.
 
 ## Why idempotency?
 
